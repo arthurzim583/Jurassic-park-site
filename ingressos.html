@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -22,11 +22,6 @@
     header img {
       height: 80px;
       margin-right: 20px;
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin: 0;
     }
 
     nav {
@@ -66,42 +61,33 @@
       margin-bottom: 10px;
     }
 
-    .intro-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .intro-text {
-      flex: 1;
-      min-width: 250px;
-    }
-
-    .intro-image img {
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-    }
-
     p {
       text-align: center;
     }
 
-    .image-gallery {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 30px;
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
     }
 
-    .image-gallery img {
-      width: 250px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    button {
+      padding: 10px 30px;
+      font-size: 20px;
+      background-color: rgb(255, 0, 0);
+      border: none;
+      border-radius: 40px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    button a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+
+    button:hover {
+      transform: scale(1.1);
     }
   </style>
 </head>
@@ -122,18 +108,32 @@
   </nav>
 
   <main>
-    
     <section>
       <div style="text-align: center; margin-top: 20px;">
         <img src="https://i.ibb.co/j942pwTk/BCO-80df1b15-0fcd-4538-bb0b-546d16574b84-removebg-preview.png" alt="Logo personalizada Jurassic Park" style="width: 300px; height: auto; border-radius: 10px;">
-        </div>
-      <p>Aqui você pode comprar as suas entradas 
-        para nosso parque, temos diversos tipos 
-        diferentes de entradas para você escolher a que mais 
-        agrada-lo e com o preço mais acessível para você e sua 
-        família
-      </p>
-      <p>Todas possuem transporte 100% gratuito para o parque então não precisa se preocpar com o transporte</p>
+      </div>
+      <p>Aqui você pode comprar as suas entradas para nosso parque. Temos diversos tipos diferentes de ingressos para você escolher o que mais agrada e com o preço mais acessível para você e sua família.</p>
+      <p>Todas as opções incluem transporte 100% gratuito até o parque.</p>
+
+      <h1>🎟️ Entrada Comum – a partir de 400U$ por pessoa</h1>
+      <button><a href="comum.html">Comprar</a></button>
+
+      <h1>🌟 Entrada VIP – acesso exclusivo e áreas restritas</h1>
+      <button><a href="vip.html">Comprar</a></button>
+
+      <h1>👨‍👩‍👧‍👦 Entrada Familiar – pacote para até 4 pessoas</h1>
+      <button><a href="familiar.html">Comprar</a></button>
+
+      <h1>🌙 Entrada Noturna – experiência após o pôr do sol</h1>
+      <button><a href="noturna.html">Comprar</a></button>
+
+      <h1>🔬 Entrada Científica – tour pelo laboratório de clonagem</h1>
+      <button><a href="cientifica.html">Comprar</a></button>
+
+      <h1>🦕 Entrada Aventura – trilha guiada e interação com dinossauros</h1>
+      <button><a href="aventura.html">Comprar</a></button>
+    </section>
+  </main>
 </body>
-</html>
+
 
